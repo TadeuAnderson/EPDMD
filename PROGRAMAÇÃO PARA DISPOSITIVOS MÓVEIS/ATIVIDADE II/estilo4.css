@@ -1,0 +1,32 @@
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(143, 245, 211);
+}
+header{
+    background-color: rgb(35, 170, 194);
+    padding: 20px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.container{
+    width: 100%;
+    padding: 10px;
+}
+.texto{
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 20px;
+    
+}
+footer{
+    background-color: rgb(35, 170, 194);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}

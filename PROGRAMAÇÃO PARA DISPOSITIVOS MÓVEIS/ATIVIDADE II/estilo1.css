@@ -1,0 +1,42 @@
+body{
+    margin: 0px;
+    font-family: Arial, sans-serif;
+    background-color: azure;
+}
+header{
+    background-color: rgb(8, 156, 156);
+    padding: 20px;
+}
+
+header img{
+    max-width: 150px;
+    position: fixed;
+    left: 200px;
+    top: 10px;
+
+    /** float: left; Imagem ficar ao lado do texto*/
+}
+
+
+header h1{
+    color: white;
+    text-align: center;
+}
+section p{
+    top: 10px;
+    background-color: rgb(112, 245, 201);
+    padding: 20px;
+}
+section img{
+    max-width: 450px;
+    list-style-type: none;
+}
+footer{
+    background-color: rgb(8, 156, 156);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,50 @@
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(177, 238, 162);
+}
+header{
+    background-color: darkgreen;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    position: static;
+}
+header img{
+    max-width: 100px;
+    position: absolute;/*A imagem fica dentro do cabeçalho sem mover para fora*/
+    left: 200px;
+    top: 10px;
+}
+article{
+    padding: 10px;
+
+}
+/*
+.container img{
+    flex: 0 0 auto;
+    margin-right: 10px;
+}
+*/
+article img{
+    flex: 0 0 auto ;
+    max-width: 600px;
+    margin-right: 10px;
+}
+
+div{
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+footer{
+    background-color: darkgreen;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}
